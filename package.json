@@ -1,8 +1,45 @@
 {
-  "name": "express_mssql",
-  "version": "1.0.0",
-  "description": "Web api project with mssql",
-  "main": "index.js",
+  "name": "logindetails-nodejs-api",
+  "version": "2.0.0",
+  "description": "Production-ready Express API with MSSQL, MySQL, PostgreSQL, Redis, JWT authentication, AI chat, caching, and more",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "start:legacy": "node index.js",
+    "start:general": "node index_General.js",
+    "start:mssql": "node index_MSSQLandJWT.js",
+    "start:todo": "node index_ToDoApi.js",
+    "start:naukri": "node index_NaukriApi.js",
+    "start:mysql": "node indexMySql.js",
+    "start:multipart": "node index_MultipartApi.js",
+    "start:restaurant": "node index_RestaurantAPI.js",
+    "start:appinsights": "node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anand1791/NodeJS.git"
+  },
+  "keywords": [
+    "express",
+    "mssql",
+    "mysql",
+    "postgresql",
+    "redis",
+    "jwt",
+    "api",
+    "node",
+    "rest",
+    "azure",
+    "appinsights"
+  ],
+  "author": "Anand Mhatre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anand1791/NodeJS/issues"
+  },
+  "homepage": "https://github.com/anand1791/NodeJS#readme",
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "applicationinsights": "^3.12.1",
@@ -43,23 +80,6 @@
     "typescript": "^5.9.3",
     "utf8": "^3.0.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anand1791/NodeJS.git"
-  },
-  "keywords": [
-    "Web",
-    "api"
-  ],
-  "author": "Anand Mhatre",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anand1791/NodeJS/issues"
-  },
-  "homepage": "https://github.com/anand1791/NodeJS#readme",
   "devDependencies": {
     "concurrently": "^9.2.1",
     "nodemon": "^3.1.11"
