@@ -1,0 +1,68 @@
+# LoginDetailsNodeJs-API - Requirements
+# =====================================
+# Web API project with MSSQL, MySQL, PostgreSQL, Redis, and more
+# Generated from package.json
+
+# Core Framework & Middleware
+express ^5.2.1
+body-parser ^2.2.0
+cors ^2.8.5
+dotenv ^17.2.3
+multer ^1.4.5-lts.1
+
+# Database Drivers
+msnodesqlv8 ^5.1.1       # Microsoft SQL Server (Windows)
+mssql ^10.0.2             # Microsoft SQL Server (cross-platform)
+mysql ^2.18.1             # MySQL
+mysql2 ^3.9.7             # MySQL (modern)
+pg ^8.11.5                # PostgreSQL
+pg-promise ^11.6.0        # PostgreSQL with promises
+redis ^6.1.0              # Redis cache
+
+# Authentication & Security
+jsonwebtoken ^9.0.2
+
+# HTTP Client & Communication
+axios ^1.13.2
+nodemailer ^7.0.5         # Email sending
+
+# AI / ML & NLP
+openai ^5.23.2            # OpenAI API
+groq-sdk ^1.1.2           # Groq AI SDK
+
+# Application Performance Monitoring (APM)
+applicationinsights ^3.12.1
+
+# Template Engine
+ejs ^3.1.9                # Embedded JavaScript templates
+
+# Date & Time Utilities
+moment ^2.30.1
+
+# Rich Text Editor (Frontend)
+react-quill ^2.0.0
+
+# Utility Libraries
+async ^3.2.5
+utf8 ^3.0.0
+ansi-styles ^4.3.0
+balanced-match ^1.0.2
+brace-expansion ^1.1.11
+chalk ^5.3.0
+color-convert ^2.0.1
+color-name ^1.1.4
+colors ^1.4.0
+concat-map ^0.0.1
+filelist ^1.0.4
+has-flag ^4.0.0
+jake ^10.8.7
+marked ^16.0.0
+minimatch ^3.1.2
+supports-color ^7.2.0
+
+# TypeScript
+typescript ^5.9.3
+
+# Development Dependencies
+nodemon ^3.1.11           # Auto-restart server on changes
+concurrently ^9.2.1       # Run multiple commands concurrently
