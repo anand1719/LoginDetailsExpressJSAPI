@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-  PORT: process.env.PORT || 3000,
+  PORT: process.env.PORT || 2000,
   JWT_SECRET: process.env.JWT_SECRET || 'uzVnO6REt4afkn3XGSlbxxI7qAJFzttYhLWY8r1cDCmiccKWFwkubkGa9B5tffjNBqdXVO3ss7BRXwKN',
   ENCRYPTION_KEY: process.env.ENCRYPTION_KEY || '',
   REDIS_URL: process.env.REDIS_URL || 'redis://localhost:6379',
